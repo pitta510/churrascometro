@@ -21,7 +21,10 @@ function calcular(){
 
     var refri = inputAdultos.value * 1000 + 500 * inputCriancas.value
 
-            resultado.innerHTML = (cerveja, carne, refri)}
+    resultado.innerHTML = [cerveja,"ml de cerveja </br>"]
+    resultado.innerHTML += [carne,"g de carne </br>"]
+    resultado.innerHTML += [refri,"ml de agua/refri"]
+        }
            
  else {
  
@@ -32,9 +35,9 @@ function calcular(){
     
     var refri = inputAdultos.value * 1500 + 750 * inputCriancas.value
     
-    resultado.innerHTML = (cerveja,"ml")
-    resultado.innerHTML += (carne,"g")
-    resultado.innerHTML += (refri,"ml")
+    resultado.innerHTML = [cerveja,"ml de cerveja </br>"]
+    resultado.innerHTML += [carne,"g de carne </br>"]
+    resultado.innerHTML += [refri,"ml de agua/refri"]
 } 
 } 
 
